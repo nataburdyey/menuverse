@@ -1,8 +1,8 @@
-import MenuItem from "./MenuItem";
+import MenuItem from './MenuItem';
 
 function Menu({ menuItems }) {
   return (
-    <div className="section-center">
+    <div className='section-center'>
       {menuItems.map((item) => {
         return <MenuItem key={item.id} {...item} />;
       })}
